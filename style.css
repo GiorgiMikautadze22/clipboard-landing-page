@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree";
+}
+
+:root {
+  --jade: #26bba4;
+  --blue: #6174ff;
+  --darkgray: #4c545c;
+  --lightgray: #9eabb2;
+  --white: #ffffff;
+}
+
+header {
+  padding: 123px 32px 0px 32px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background-image: url(./resorces/bg\ pic.svg); */
+  /* background-image: url(./resorces/bg2.svg); */
+}
+
+header img {
+  margin: auto;
+  margin-bottom: 64px;
+}
+
+header h1 {
+  color: var(--darkgray);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+header p {
+  color: var(--jade);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  margin-bottom: 48px;
+}
+
+header .IOS {
+  margin: auto;
+  width: 311px;
+  height: 56px;
+  background-color: var(--jade);
+  border: none;
+  border-radius: 28px;
+  color: var(--white);
+
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5 px;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+header .Mac {
+  background-color: var(--blue);
+  margin-top: 24px;
+}
+
+header h2 {
+  margin-top: 160px;
+  margin-bottom: 16px;
+  color: var(--darkgray);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: -0.46 px;
+}
+
+header h3 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.39 px;
+  color: var(--darkgray);
+  margin-bottom: 10px;
+}
+
+.mt186 {
+  margin-top: 186px;
+}
