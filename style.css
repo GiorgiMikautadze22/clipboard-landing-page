@@ -23,8 +23,8 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background-image: url(./resorces/bg\ pic.svg); */
-  /* background-image: url(./resorces/bg2.svg); */
+  /* background-image: url(./resorces/BG\ mask.svg);
+  background-repeat: no-repeat; */
 }
 
 header img {
@@ -40,7 +40,7 @@ header h1 {
   margin-bottom: 16px;
 }
 
-header p {
+p {
   color: var(--jade);
   font-size: 16px;
   font-weight: 400;
@@ -49,7 +49,7 @@ header p {
   margin-bottom: 48px;
 }
 
-header .IOS {
+button {
   margin: auto;
   width: 311px;
   height: 56px;
@@ -57,7 +57,6 @@ header .IOS {
   border: none;
   border-radius: 28px;
   color: var(--white);
-
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.5 px;
@@ -65,7 +64,7 @@ header .IOS {
     inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
 }
 
-header .Mac {
+.Mac {
   background-color: var(--blue);
   margin-top: 24px;
 }
@@ -80,7 +79,7 @@ header h2 {
   letter-spacing: -0.46 px;
 }
 
-header h3 {
+h3 {
   font-size: 24px;
   font-weight: 600;
   letter-spacing: -0.39 px;
@@ -90,4 +89,219 @@ header h3 {
 
 .mt186 {
   margin-top: 186px;
+}
+
+section {
+  padding: 0px 32px 0px 32px;
+  text-align: center;
+}
+
+section h3 {
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: -0.46 px;
+  text-align: center;
+}
+
+section p {
+  color: var(--jade);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+
+  margin-top: 11px;
+}
+
+section img {
+  margin-bottom: 40px;
+  margin-top: 90px;
+}
+
+.companies {
+  display: grid;
+  justify-content: center;
+}
+
+.companies img {
+  margin: 0px;
+}
+
+.companies {
+  margin-top: 130px;
+  margin-bottom: 170px;
+}
+
+.clipboard {
+  margin-top: 16px;
+  margin-bottom: 46px;
+}
+
+section .Mac {
+  margin-bottom: 170px;
+}
+
+footer {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: #f3efef;
+  padding: 52px 0px 53px 0px;
+}
+
+footer .botlogo {
+  width: 55px;
+  height: 55px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+footer h4 {
+  color: var(--darkgray);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+}
+
+footer .row {
+  display: grid;
+  row-gap: 20px;
+}
+
+footer .socialmedia {
+  column-gap: 40px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.pc {
+  display: none;
+}
+
+.combine .text {
+  display: none;
+}
+
+@media screen and (min-width: 1400px) {
+  header h1 {
+    font-size: 46px;
+  }
+
+  header p {
+    font-size: 20px;
+    width: 730px;
+    height: 60px;
+    line-height: 30px;
+  }
+
+  button {
+    margin: 0px;
+    width: 227px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+  }
+
+  .Mac {
+    margin-top: 0px;
+  }
+
+  header .flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    margin: 0px;
+  }
+
+  header h2 {
+    font-size: 36px;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  header .pcdescription {
+    display: none;
+  }
+
+  .combine {
+    display: flex;
+    margin-top: 80px;
+    column-gap: 110px;
+    padding-right: 250px;
+  }
+
+  .combine .text {
+    margin-top: 80px;
+  }
+
+  .tabletphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+  }
+
+  section {
+    padding: 0px 100px;
+  }
+
+  section .textbox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  section .textbox p {
+    width: 350px;
+    height: 90px;
+    margin: auto;
+  }
+
+  section .flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+  }
+
+  footer {
+    display: flex;
+    gap: 135px;
+    padding: 39px 0px 0px 39px;
+  }
+
+  footer .row {
+    display: flex;
+    column-gap: 50px;
+    gap: 50px;
+  }
+
+  h4 {
+    width: 160px;
+    height: 30px;
+    display: flex;
+  }
+
+  h4:hover {
+    cursor: pointer;
+    color: var(--jade);
+  }
+
+  footer .socialmedia {
+    margin: 0px;
+    align-items: flex-start;
+    margin-top: 24px;
+  }
+
+  footer .socialmedia:hover {
+    cursor: pointer;
+  }
 }
